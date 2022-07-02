@@ -1,0 +1,8 @@
+@keyframes changeFormAnimation {
+    0%{
+      display: block;
+    }
+    100%{
+        display: block;
+    }
+}
