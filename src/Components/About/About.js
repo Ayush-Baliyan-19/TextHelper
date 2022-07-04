@@ -1,14 +1,17 @@
 import React from 'react'
 
 const About = (props) => {
+    console.log(props)
     const changemode = () =>{
         props.useMyState(()=>{
-            if(props.myState==="dark")
-            {
-                return "light";
+            if (props.myState.bg==="light"){
+                props.myState.bg="dark";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                return {...props.myState}
             }
-            else{
-                return "dark"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+            else if(props.myState.bg==="dark")
+            {
+                props.myState.bg="light";
+                return {...props.myState}
             }
         })
     }

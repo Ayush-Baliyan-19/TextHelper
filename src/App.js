@@ -8,6 +8,7 @@ function App() {
   const [myState,useMyState]= React.useState({bg:"dark"})
   const [mystyle,useMyStyle]=React.useState({backgroundColor:"black",
 color:"white"})
+console.log(myState);
   return (
    <div style={mystyle} className="App" >
       <Navbar Head="TextUtils" props={myState}/>
