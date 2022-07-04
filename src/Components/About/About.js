@@ -1,6 +1,17 @@
 import React from 'react'
 
-const About = () => {
+const About = (props) => {
+    const changemode = () =>{
+        props.useMyState(()=>{
+            if(props.myState==="dark")
+            {
+                return "light";
+            }
+            else{
+                return "dark"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+            }
+        })
+    }
     return (
         <div className='container mt-3'>
             <h1 className='center mx-auto'>About us</h1>
@@ -42,7 +53,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <button className="btn btn-primary mt-3">Toggle Mode</button>
+            <button className="btn btn-primary mt-3" onClick={changemode}>Toggle Mode</button>
         </div>
     )
 }
