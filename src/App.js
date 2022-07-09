@@ -32,10 +32,12 @@ function App() {
     <div style={mystyle} className="App" >
       <Navbar Head="TextUtils" myState={myState} toggleMode={togglemode} />
       <div className="container my-3">
+      {/* <Router> */}
         <Routes>
           <Route exact path='/' element={<TextForm/>} />
           <Route exact path='/about' element={<About/>}/>
         </Routes>
+      {/* </Router> */}
       </div>
     </div>
   );
