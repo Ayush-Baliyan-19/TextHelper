@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import About from './Components/About/About';
+// import About from './Components/About/About';
 import Navbar from './Components/Navbar/Navbar';
 import TextForm from './Components/TextUtils/TextForm';
 
@@ -21,7 +21,7 @@ const togglemode = async ()=>{
   color:"white"})
   }
 }
-console.log(myState);
+// console.log(myState);
   return (
    <div style={mystyle} className="App" >
       <Navbar Head="TextUtils" myState={myState} toggleMode={togglemode}/>
