@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ayush-Baliyan-19/TextUtils.git/static/css/main.c9233640.css",
+    "main.js": "/Ayush-Baliyan-19/TextUtils.git/static/js/main.96b087f0.js",
+    "static/js/787.051eb2ca.chunk.js": "/Ayush-Baliyan-19/TextUtils.git/static/js/787.051eb2ca.chunk.js",
+    "index.html": "/Ayush-Baliyan-19/TextUtils.git/index.html",
+    "main.c9233640.css.map": "/Ayush-Baliyan-19/TextUtils.git/static/css/main.c9233640.css.map",
+    "main.96b087f0.js.map": "/Ayush-Baliyan-19/TextUtils.git/static/js/main.96b087f0.js.map",
+    "787.051eb2ca.chunk.js.map": "/Ayush-Baliyan-19/TextUtils.git/static/js/787.051eb2ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9233640.css",
+    "static/js/main.96b087f0.js"
+  ]
+}
