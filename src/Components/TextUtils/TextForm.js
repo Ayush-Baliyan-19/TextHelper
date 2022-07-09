@@ -1,6 +1,6 @@
 import React from 'react'
 import './TextForm.css'
-const TextForm = (props) => {
+const TextForm = () => {
     const [text, setText] = React.useState("");
     const [Find,setFind] =React.useState((""));
     const [Replace,setReplace] =React.useState((""));
@@ -32,10 +32,7 @@ const TextForm = (props) => {
     const replacetext = () =>{
         setText(()=>{
             let newText = text;
-            while(newText)
-            {
-                newText=newText.replace(Find,Replace);
-            }
+            newText=newText.replace(Find,Replace);
             return newText;
         })
     }
@@ -54,7 +51,7 @@ const TextForm = (props) => {
     return (
         <>
             <div>
-                <h3>{props.Heading}</h3>
+                <h3>Enter The Text To Analyse</h3>
                 <div className="mb-3">
                     <textarea className="form-control my-3" value={text} id="MyTextArea" rows="11" onChange={onchangehandle}></textarea>
                 </div>

@@ -1,35 +1,43 @@
 import './App.css';
 import React from 'react';
-// import About from './Components/About/About';
+import {Routes,Route} from 'react-router-dom';
+import About from './Components/About/About';
 import Navbar from './Components/Navbar/Navbar';
 import TextForm from './Components/TextUtils/TextForm';
+// import Alert from './Components/Alerts/Alert';
 
 function App() {
-  const [myState,setMyState]= React.useState({bg:"dark"})
-  const [mystyle,setMyStyle]=React.useState({backgroundColor:"black",
-color:"white"})
-const togglemode = async ()=>{
-  if(myState.bg==="dark")
-  {
-    setMyState({bg:"light"});
-    setMyStyle({backgroundColor:"#f8f9fa",
-  color:"black"})
+  const [myState, setMyState] = React.useState({ bg: "light" })
+  const [mystyle, setMyStyle] = React.useState({
+    backgroundColor: "#f8f9fa",
+    color: "black"
+  })
+  const togglemode = async () => {
+    if (myState.bg === "dark") {
+      setMyState({ bg: "light" });
+      setMyStyle({
+        backgroundColor: "#f8f9fa",
+        color: "black"
+      })
+    }
+    else {
+      setMyState({ bg: "dark" })
+      setMyStyle({
+        backgroundColor: "#212529",
+        color: "white"
+      })
+    }
   }
-  else{
-    setMyState({bg:"dark"})
-    setMyStyle({backgroundColor:"#212529",
-  color:"white"})
-  }
-}
-// console.log(myState);
   return (
-   <div style={mystyle} className="App" >
-      <Navbar Head="TextUtils" myState={myState} toggleMode={togglemode}/>
+    <div style={mystyle} className="App" >
+      <Navbar Head="TextUtils" myState={myState} toggleMode={togglemode} />
       <div className="container my-3">
-        <TextForm Heading="Enter the text to analyse"/>
+        <Routes>
+          <Route exact path='/' element={<TextForm/>} />
+          <Route exact path='/about' element={<About/>}/>
+        </Routes>
       </div>
-      {/* <About togglemode={togglemode}/> */}
-   </div>
+    </div>
   );
 }
 
