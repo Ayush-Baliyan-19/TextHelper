@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Ayush-Baliyan-19/TextUtils/static/css/main.c9233640.css",
-    "main.js": "/Ayush-Baliyan-19/TextUtils/static/js/main.2aa12d7a.js",
+    "main.js": "/Ayush-Baliyan-19/TextUtils/static/js/main.0dd67be4.js",
     "static/js/787.051eb2ca.chunk.js": "/Ayush-Baliyan-19/TextUtils/static/js/787.051eb2ca.chunk.js",
     "index.html": "/Ayush-Baliyan-19/TextUtils/index.html",
     "main.c9233640.css.map": "/Ayush-Baliyan-19/TextUtils/static/css/main.c9233640.css.map",
-    "main.2aa12d7a.js.map": "/Ayush-Baliyan-19/TextUtils/static/js/main.2aa12d7a.js.map",
+    "main.0dd67be4.js.map": "/Ayush-Baliyan-19/TextUtils/static/js/main.0dd67be4.js.map",
     "787.051eb2ca.chunk.js.map": "/Ayush-Baliyan-19/TextUtils/static/js/787.051eb2ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9233640.css",
-    "static/js/main.2aa12d7a.js"
+    "static/js/main.0dd67be4.js"
   ]
 }
