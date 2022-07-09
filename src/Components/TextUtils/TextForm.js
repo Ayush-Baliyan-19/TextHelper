@@ -32,7 +32,10 @@ const TextForm = (props) => {
     const replacetext = () =>{
         setText(()=>{
             let newText = text;
-            newText=newText.replace(Find,Replace);
+            while(newText)
+            {
+                newText=newText.replace(Find,Replace);
+            }
             return newText;
         })
     }

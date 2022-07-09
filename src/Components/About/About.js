@@ -2,19 +2,6 @@ import React from 'react'
 
 const About = (props) => {
     console.log(props)
-    const changemode = () =>{
-        props.useMyState(()=>{
-            if (props.myState.bg==="light"){
-                props.myState.bg="dark";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-                return {...props.myState}
-            }
-            else if(props.myState.bg==="dark")
-            {
-                props.myState.bg="light";
-                return {...props.myState}
-            }
-        })
-    }
     return (
         <div className='container mt-3'>
             <h1 className='center mx-auto'>About us</h1>
@@ -56,7 +43,7 @@ const About = (props) => {
                     </div>
                 </div>
             </div>
-            <button className="btn btn-primary mt-3" onClick={changemode}>Toggle Mode</button>
+            <button className="btn btn-primary mt-3" onClick={props.togglemode}>Toggle Mode</button>
         </div>
     )
 }
