@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Ayush-Baliyan-19/TextUtils/static/css/main.c9233640.css",
-    "main.js": "/Ayush-Baliyan-19/TextUtils/static/js/main.56e675a6.js",
-    "static/js/787.051eb2ca.chunk.js": "/Ayush-Baliyan-19/TextUtils/static/js/787.051eb2ca.chunk.js",
+    "main.js": "/Ayush-Baliyan-19/TextUtils/static/js/main.1c57296b.js",
+    "static/js/787.e7bc0a01.chunk.js": "/Ayush-Baliyan-19/TextUtils/static/js/787.e7bc0a01.chunk.js",
     "index.html": "/Ayush-Baliyan-19/TextUtils/index.html",
     "main.c9233640.css.map": "/Ayush-Baliyan-19/TextUtils/static/css/main.c9233640.css.map",
-    "main.56e675a6.js.map": "/Ayush-Baliyan-19/TextUtils/static/js/main.56e675a6.js.map",
-    "787.051eb2ca.chunk.js.map": "/Ayush-Baliyan-19/TextUtils/static/js/787.051eb2ca.chunk.js.map"
+    "main.1c57296b.js.map": "/Ayush-Baliyan-19/TextUtils/static/js/main.1c57296b.js.map",
+    "787.e7bc0a01.chunk.js.map": "/Ayush-Baliyan-19/TextUtils/static/js/787.e7bc0a01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9233640.css",
-    "static/js/main.56e675a6.js"
+    "static/js/main.1c57296b.js"
   ]
 }
