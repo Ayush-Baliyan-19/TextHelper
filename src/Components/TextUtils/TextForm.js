@@ -23,12 +23,12 @@ const TextForm = () => {
             return newText;
         })
     }
-    const InterChange= () =>{
-        var tempfind=Find;
-        var tempReplace=Replace;
-            setFind(tempfind)
-            setReplace(tempReplace);
-    }
+    // const InterChange= () =>{
+    //     var tempfind=Find;
+    //     var tempReplace=Replace;
+    //         setFind(tempfind)
+    //         setReplace(tempReplace);
+    // }
     const replacetext = () =>{
         setText(()=>{
             let newText = text;
@@ -65,7 +65,7 @@ const TextForm = () => {
                     <label htmlFor="exampleFormControlInput1" className="form-label">Word in Which You Want To Change</label>
                     <input type="text" className="form-control" value={Replace} id="wordtobechanged" onChange={changeReplace}/>
                     <button className="btn btn-primary mx-2 my-3" onClick={replacetext}>Replace</button>
-                    <button className="btn btn-primary mx-2 my-3" onClick={InterChange}>Interchange</button>
+                    {/* <button className="btn btn-primary mx-2 my-3" onClick={InterChange}>Interchange</button> */}
                 </div>
             </div>
             <div className='my-3'>

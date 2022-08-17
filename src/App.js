@@ -30,7 +30,7 @@ function App() {
   }
   return (
     <div style={mystyle} className="App" >
-      <Navbar Head="TextUtils" myState={myState} toggleMode={togglemode} />
+      <Navbar Head="TextHelper" myState={myState} toggleMode={togglemode} />
       <div className="container my-3">
       {/* <Router> */}
         <Routes>
